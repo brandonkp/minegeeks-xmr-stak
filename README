@@ -1,1 +1,22 @@
+       BEFORE RUNNING!!!!!!!!!!!!!!!    |
+-----------------------------------------
 
+Edit pools.txt with notepad or any text editor.
+----------------------------------------------------------------------
+
+this is an example on how to connect to the minegeeks monero pool
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"pool_list": [
+    {
+        "pool_address": "xmr.minegeeks.com:5555",
+        "wallet_address": "your_wallet_address",
+        "rig_id": "worker_name",(will identify your miner)(use any name)
+        "pool_password": "x",(do not change)
+        "use_nicehash": false,
+        "use_tls": false, /* Set to true if you are using an SSL port */
+        "tls_fingerprint": "",
+        "pool_weight": 1
+    },
+],
+"currency": "cryptonight_v7",
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
